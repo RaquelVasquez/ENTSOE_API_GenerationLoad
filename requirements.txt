@@ -1,0 +1,10 @@
+# for API:
+requests
+pytz
+beautifulsoup4
+
+# for dataDownloadCBF.py:
+numpy
+datetime
+pandas
+progressbar2

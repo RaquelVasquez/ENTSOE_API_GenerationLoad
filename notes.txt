@@ -1,0 +1,18 @@
+Lista de datos a descargar (per country)
+
+a) [ok-ok][Document type: A75, A16] Actual Generation per Production Type (Aggregated Generation per Type)
+b) [ok-][Document type: A65, A16]  Total Load - Day Ahead / Actual
+c) [ok-ok]  Cross-Border Physical Flow (Physical Flows)
+d) [optional] A73 - Actual generation/ CHECK
+
+Cosas para programar
+
+1) Para un país:
+
+a) descargar a b y c
+b) escalar cross-border flows individuales (por frontera) a 1/4 hora
+c) hacer PCA borders para import y PCA borders para Exports
+d) graficar PCAs
+e) usar todas (leer)
+
+2) Para todos los paises
